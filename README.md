@@ -19,6 +19,7 @@ Master OOP principles and design patterns through hands-on examples and problem-
 | **[Classes & Objects](./OOP-fundamentals/Classes%20%26%20Objects/)** | 🏗️ Blueprints and instances for creating real-world models |
 | **[Encapsulation](./OOP-fundamentals/Encapsulation/)** | 🔐 Data hiding and controlled access |
 | **[Abstraction](./OOP-fundamentals/Abstraction/)** | 🎭 Hiding complexity and exposing essentials |
+| **[Inheritance](./OOP-fundamentals/Inheritance/)** | 👨‍👩‍👧‍👦 Reusing code through parent-child relationships |
 | **[Enums](./OOP-fundamentals/Enums/)** | 🚦 Type-safe constant definitions |
 | **[Interfaces](./OOP-fundamentals/Interfaces/)** | 📞 Contracts and loose coupling |
 
