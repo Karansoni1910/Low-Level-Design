@@ -1,13 +1,35 @@
-Design ShoppingCart Class
+# 🔐 Encapsulation
 
-Problem: Build a ShoppingCart class that manages items, supports a one-time discount code, and prevents modifications after checkout.
+**Definition:** Encapsulation is the bundling of data and methods into a single unit while hiding internal implementation details through access modifiers (private, protected, public).
 
-Requirements:
+---
 
-Private map/dictionary of items (item name to price)
-Private discount code (can only be applied once)
-Private isCheckedOut flag
-addItem(name, price): adds an item, but only if the cart hasn't been checked out
-applyDiscount(code): if the code is "SAVE10" and no discount has been applied yet, marks the discount as applied and stores it. Returns success/failure.
-getTotal(): returns the sum of all prices, minus 10% if a discount was applied
-checkout(): marks the cart as checked out if it has at least one item. After checkout, no items can be added and no discounts can be applied.
+## 📋 Problem Statement
+
+Build a **ShoppingCart** class that manages items, supports a one-time discount code, and prevents modifications after checkout.
+
+---
+
+## ✅ Requirements
+
+| Method | Description |
+|--------|-------------|
+| **`addItem(name, price)`** | Adds an item, but only if the cart hasn't been checked out |
+| **`applyDiscount(code)`** | If code is "SAVE10" and no discount applied yet, applies 10% discount. Returns success/failure |
+| **`getTotal()`** | Returns sum of all prices, minus 10% if discount was applied |
+| **`checkout()`** | Marks cart as checked out if it has at least one item. Prevents further modifications |
+
+### Private Fields
+
+- `items` - Map/dictionary of items (item name to price)
+- `discountCode` - Can only be applied once
+- `isCheckedOut` - Flag to prevent modifications after checkout
+
+---
+
+## 💡 Key Concepts Covered
+
+- Data hiding with private fields
+- Controlled access through public methods
+- State validation and control flow
+- Immutability after checkout
