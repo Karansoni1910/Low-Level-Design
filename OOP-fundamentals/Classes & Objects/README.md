@@ -1,5 +1,5 @@
 Design Bank Account Class
-Solved
+
 Problem: Create a BankAccount class that manages a simple bank account with deposit, withdrawal, and balance checking functionality.
 
 Requirements:
