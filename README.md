@@ -34,6 +34,7 @@ Understanding how classes interact and relate to each other in real-world system
 | **[Association](./Class%20Relationships/Association/)** | 🔗 Objects use or interact with each other | Independent lifespans |
 | **[Aggregation](./Class%20Relationships/Aggregation/)** | 📦 Weak "has-a" relationship | Children survive parent deletion |
 | **[Composition](./Class%20Relationships/Composition/)** | 🧩 Strong "part-of" relationship | Parts destroyed with whole |
+| **[Dependency Injection](./Class%20Relationships/Depedency/)** | 💉 Injecting dependencies from external sources | Loose coupling & flexibility |
 
 ---
 
@@ -67,6 +68,8 @@ Start → Classes & Objects
         Interfaces ← Enums
         ↓
         Association ← Aggregation ← Composition
+        ↓
+        Dependency Injection
         ↓
         Master OOP!
 ```
