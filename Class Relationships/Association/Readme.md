@@ -1,9 +1,49 @@
-Design Online Course Platform
+# 🔗 Association
 
-Problem: Build a course platform where instructors create courses and students enroll in them. This exercise practices unidirectional and one-to-many associations.
+**Definition:** Association represents a relationship between two classes where one class uses or interacts with another class. It can be one-to-one, one-to-many, or many-to-many, and objects can exist independently.
 
-Requirements:
+---
 
-Instructor with a name and a list of Course objects they teach. An addCourse(course) method that adds the course and sets the instructor on the course.
-Course with a title, an Instructor reference, and a list of enrolled Student objects. An enrollStudent(student) method that adds the student and sets the enrolled course on the student.
-Student with a name and an enrolledCourse reference (the course they're currently taking). A getInstructorName() method that navigates through the course to return the instructor's name.
+## 📋 Problem Statement
+
+Build a course platform where instructors create courses and students enroll in them. This exercise practices unidirectional and one-to-many associations.
+
+---
+
+## ✅ Requirements
+
+### Instructor Class
+- **Field:** `name`, list of `Course` objects
+- **Method:**
+  - `addCourse(course)` - Adds the course and sets the instructor on the course
+
+### Course Class
+- **Fields:** `title`, `Instructor` reference, list of `Student` objects
+- **Methods:**
+  - `setInstructor(instructor)` - Sets the instructor reference
+  - `enrollStudent(student)` - Adds student and sets enrolled course on the student
+
+### Student Class
+- **Fields:** `name`, `enrolledCourse` reference
+- **Methods:**
+  - `setEnrolledCourse(course)` - Sets the enrolled course reference
+  - `getInstructorName()` - Navigates through course to return instructor's name (or "No instructor" if null)
+
+---
+
+## 📊 Relationship Diagram
+
+```
+Instructor ──────→ Course ──────→ Student
+  (1)               (many)         (many)
+```
+
+---
+
+## 💡 Key Concepts Covered
+
+- One-to-many relationships
+- Object navigation through associations
+- Bidirectional reference management
+- Independent object existence
+- Real-world modeling of course enrollment

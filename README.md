@@ -10,18 +10,29 @@ Master OOP principles and design patterns through hands-on examples and problem-
 
 ---
 
-## 📂 Repository Structure
+## 📂 Topics Covered
 
-### OOP Fundamentals
+### 🏛️ OOP Fundamentals
 
-| Concept | Description |
-|---------|-------------|
-| **[Classes & Objects](./OOP-fundamentals/Classes%20%26%20Objects/)** | 🏗️ Blueprints and instances for creating real-world models |
-| **[Encapsulation](./OOP-fundamentals/Encapsulation/)** | 🔐 Data hiding and controlled access |
-| **[Abstraction](./OOP-fundamentals/Abstraction/)** | 🎭 Hiding complexity and exposing essentials |
-| **[Inheritance](./OOP-fundamentals/Inheritance/)** | 👨‍👩‍👧‍👦 Reusing code through parent-child relationships |
-| **[Enums](./OOP-fundamentals/Enums/)** | 🚦 Type-safe constant definitions |
-| **[Interfaces](./OOP-fundamentals/Interfaces/)** | 📞 Contracts and loose coupling |
+Core object-oriented programming concepts that form the foundation of software design.
+
+| Concept | Description | Focus |
+|---------|-------------|-------|
+| **[Classes & Objects](./OOP-fundamentals/Classes%20%26%20Objects/)** | 🏗️ Blueprints and instances for creating real-world models | Creation & Instantiation |
+| **[Encapsulation](./OOP-fundamentals/Encapsulation/)** | 🔐 Data hiding and controlled access | Data Protection |
+| **[Abstraction](./OOP-fundamentals/Abstraction/)** | 🎭 Hiding complexity and exposing essentials | Interface Design |
+| **[Inheritance](./OOP-fundamentals/Inheritance/)** | 👨‍👩‍👧‍👦 Reusing code through parent-child relationships | Code Reusability |
+| **[Enums](./OOP-fundamentals/Enums/)** | 🚦 Type-safe constant definitions | Type Safety |
+| **[Interfaces](./OOP-fundamentals/Interfaces/)** | 📞 Contracts and loose coupling | Contract Definition |
+
+### 🔀 Class Relationships
+
+Understanding how classes interact and relate to each other in real-world systems.
+
+| Type | Description | Characteristic |
+|------|-------------|-----------------|
+| **[Association](./Class%20Relationships/Association/)** | 🔗 Objects use or interact with each other | Independent lifespans |
+| **[Aggregation](./Class%20Relationships/Aggregation/)** | 📦 Weak "has-a" relationship | Children survive parent deletion |
 
 ---
 
@@ -30,21 +41,60 @@ Master OOP principles and design patterns through hands-on examples and problem-
 1. Navigate to any concept folder
 2. Read the README to understand the problem
 3. Review the implementation examples
-4. Practice implementing the solutions
+4. Practice implementing the solutions yourself
 
 ---
 
 ## 💡 Why LLD Matters
 
-- Foundation for building scalable applications
-- Essential for system design interviews
-- Improves code maintainability and reusability
-- Helps you write cleaner, more professional code
+- ✅ Foundation for building scalable applications
+- ✅ Essential for system design interviews
+- ✅ Improves code maintainability and reusability
+- ✅ Helps you write cleaner, more professional code
 
 ---
 
-## 📝 Note
+## 📊 Learning Path
 
-Each concept includes a problem statement, requirements, and example implementations to solidify your understanding.
+```
+Start → Classes & Objects
+        ↓
+        Encapsulation
+        ↓
+        Abstraction → Inheritance
+        ↓              ↓
+        Interfaces ← Enums
+        ↓
+        Association ← Aggregation
+        ↓
+        Master OOP!
+```
+
+---
+
+## 📝 How to Use This Repository
+
+Each concept folder contains:
+- **README.md** - Problem statement, requirements, and key concepts
+- **Main.java** - Complete working implementation with examples
+- **Practice Exercises** - Try implementing the solution yourself first!
+
+---
+
+## 🎓 Tips for Success
+
+1. **Understand before coding** - Read the problem statement carefully
+2. **Study the examples** - Review the Main.java implementation
+3. **Practice** - Try to implement it yourself without looking at the solution
+4. **Experiment** - Modify the code and see what happens
+5. **Draw diagrams** - Visualize class relationships and hierarchies
+
+---
+
+## 📝 Notes
+
+- Each concept includes a problem statement, requirements, and example implementations
+- All code examples are in Java
+- Focus on understanding the principles, not just memorizing syntax
 
 Happy Learning! 🎓
