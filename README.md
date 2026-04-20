@@ -46,6 +46,7 @@ Best practices and principles that guide professional software design.
 | **[DRY](./Design%20Principles/DRY/)** | 🔁 Don't Repeat Yourself | Eliminate code duplication |
 | **[KISS](./Design%20Principles/KISS/)** | 🎯 Keep It Simple, Stupid | Simplicity over complexity |
 | **[YAGNI](./Design%20Principles/YAGNI/)** | 🚫 You Aren't Gonna Need It | Build only what's required |
+| **[Law of Demeter](./Design%20Principles/Law%20of%20Demeter/)** | 📞 Tell, Don't Ask | Avoid reaching into nested objects |
 
 ---
 
