@@ -47,6 +47,8 @@ Best practices and principles that guide professional software design.
 | **[KISS](./Design%20Principles/KISS/)** | 🎯 Keep It Simple, Stupid | Simplicity over complexity |
 | **[YAGNI](./Design%20Principles/YAGNI/)** | 🚫 You Aren't Gonna Need It | Build only what's required |
 | **[Law of Demeter](./Design%20Principles/Law%20of%20Demeter/)** | 📞 Tell, Don't Ask | Avoid reaching into nested objects |
+| **[Separation of Concerns](./Design%20Principles/Separation%20of%20Concerns/)** | 🎯 SoC | Divide system by concerns |
+| **[Coupling and Cohesion](./Design%20Principles/Coupling%20and%20Cohesion/)** | 🔗 Low Coupling, High Cohesion | Loose dependencies, focused responsibility |
 
 ---
 
