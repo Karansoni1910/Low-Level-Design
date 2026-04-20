@@ -44,6 +44,7 @@ Best practices and principles that guide professional software design.
 | Principle | Description | Focus |
 |-----------|-------------|-------|
 | **[DRY](./Design%20Principles/DRY/)** | 🔁 Don't Repeat Yourself | Eliminate code duplication |
+| **[KISS](./Design%20Principles/KISS/)** | 🎯 Keep It Simple, Stupid | Simplicity over complexity |
 
 ---
 
