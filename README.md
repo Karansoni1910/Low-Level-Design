@@ -37,6 +37,14 @@ Understanding how classes interact and relate to each other in real-world system
 | **[Dependency Injection](./Class%20Relationships/Depedency/)** | 💉 Injecting dependencies from external sources | Loose coupling & flexibility |
 | **[Realization](./Class%20Relationships/Realization/)** | 🔌 Implementing interface contracts | Polymorphic behavior |
 
+### 🎨 Design Principles
+
+Best practices and principles that guide professional software design.
+
+| Principle | Description | Focus |
+|-----------|-------------|-------|
+| **[DRY](./Design%20Principles/DRY/)** | 🔁 Don't Repeat Yourself | Eliminate code duplication |
+
 ---
 
 ## 🚀 Getting Started
