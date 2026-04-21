@@ -50,6 +50,16 @@ Best practices and principles that guide professional software design.
 | **[Separation of Concerns](./Design%20Principles/Separation%20of%20Concerns/)** | 🎯 SoC | Divide system by concerns |
 | **[Coupling and Cohesion](./Design%20Principles/Coupling%20and%20Cohesion/)** | 🔗 Low Coupling, High Cohesion | Loose dependencies, focused responsibility |
 
+### 🏗️ SOLID Principles
+
+Five principles that help developers create more understandable, flexible, and maintainable software.
+
+| Principle | Description | Focus |
+|-----------|-------------|-------|
+| **[Single Responsibility Principle](./SOLID%20principles/Single%20Responsibility%20Principle/)** | 📋 SRP | One class, one reason to change |
+| **[Open-Closed Principle](./SOLID%20principles/Open-Closed%20Principle/)** | 📖 OCP | Open for extension, closed for modification |
+| **[Liskov Substitution Principle](./SOLID%20principles/Liskov%20Substitution%20Principle/)** | 🔄 LSP | Subclasses properly substitute base classes |
+
 ---
 
 ## 🚀 Getting Started
