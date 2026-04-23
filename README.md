@@ -59,6 +59,7 @@ Five principles that help developers create more understandable, flexible, and m
 | **[Single Responsibility Principle](./SOLID%20principles/Single%20Responsibility%20Principle/)** | 📋 SRP | One class, one reason to change |
 | **[Open-Closed Principle](./SOLID%20principles/Open-Closed%20Principle/)** | 📖 OCP | Open for extension, closed for modification |
 | **[Liskov Substitution Principle](./SOLID%20principles/Liskov%20Substitution%20Principle/)** | 🔄 LSP | Subclasses properly substitute base classes |
+| **[Interface Segregation Principle](./SOLID%20principles/Interface%20Segregation%20Principle/)** | 🧩 ISP | Clients should depend only on methods they use |
 
 ---
 
