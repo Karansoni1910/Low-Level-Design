@@ -100,31 +100,22 @@ Start → Classes & Objects
         Master OOP!
 ```
 
----
+### 🏗️ SOLID Roadmap
 
-## 📝 How to Use This Repository
-
-Each concept folder contains:
-- **README.md** - Problem statement, requirements, and key concepts
-- **Main.java** - Complete working implementation with examples
-- **Practice Exercises** - Try implementing the solution yourself first!
-
----
-
-## 🎓 Tips for Success
-
-1. **Understand before coding** - Read the problem statement carefully
-2. **Study the examples** - Review the Main.java implementation
-3. **Practice** - Try to implement it yourself without looking at the solution
-4. **Experiment** - Modify the code and see what happens
-5. **Draw diagrams** - Visualize class relationships and hierarchies
+```
+Start → Single Responsibility Principle
+        ↓
+        Open-Closed Principle
+        ↓
+        Liskov Substitution Principle
+        ↓
+        Interface Segregation Principle
+        ↓
+        Dependency Inversion Principle
+        ↓
+        Master SOLID!
+```
 
 ---
-
-## 📝 Notes
-
-- Each concept includes a problem statement, requirements, and example implementations
-- All code examples are in Java
-- Focus on understanding the principles, not just memorizing syntax
 
 Happy Learning! 🎓
