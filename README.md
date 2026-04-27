@@ -37,6 +37,17 @@ Understanding how classes interact and relate to each other in real-world system
 | **[Dependency Injection](./Class%20Relationships/Depedency/)** | 💉 Injecting dependencies from external sources | Loose coupling & flexibility |
 | **[Realization](./Class%20Relationships/Realization/)** | 🔌 Implementing interface contracts | Polymorphic behavior |
 
+### 🎨 Design Patterns
+
+Proven solutions to common software design problems that promote reusability and maintainability.
+
+#### Creational Patterns
+Patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation.
+
+| Pattern | Description | Focus |
+|---------|-------------|-------|
+| **[Singleton](./Design%20Patterns/Creational%20Patterns/Singleton/)** | 🔒 Ensures one instance exists globally | Single instance & global access |
+
 ### 🎨 Design Principles
 
 Best practices and principles that guide professional software design.
