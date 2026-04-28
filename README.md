@@ -47,6 +47,7 @@ Patterns that deal with object creation mechanisms, trying to create objects in 
 | Pattern | Description | Focus |
 |---------|-------------|-------|
 | **[Singleton](./Design%20Patterns/Creational%20Patterns/Singleton/)** | 🔒 Ensures one instance exists globally | Single instance & global access |
+| **[Builder](./Design%20Patterns/Creational%20Patterns/Builder/)** | 🏗️ Constructs complex objects step by step | Flexible object creation with optional parameters |
 
 ### 🎨 Design Principles
 
