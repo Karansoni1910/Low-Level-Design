@@ -46,6 +46,7 @@ Patterns that deal with object creation mechanisms, trying to create objects in 
 
 | Pattern | Description | Focus |
 |---------|-------------|-------|
+| **[Abstract Factory](./Design%20Patterns/Creational%20Patterns/Abstract%20Factory/)** | 🎨 Creates families of related objects consistently | Family consistency & product compatibility |
 | **[Singleton](./Design%20Patterns/Creational%20Patterns/Singleton/)** | 🔒 Ensures one instance exists globally | Single instance & global access |
 | **[Factory Method](./Design%20Patterns/Creational%20Patterns/Factory/)** | 🏭 Creates objects without specifying exact classes | Abstraction & loose coupling |
 | **[Builder](./Design%20Patterns/Creational%20Patterns/Builder/)** | 🏗️ Constructs complex objects step by step | Flexible object creation with optional parameters |
