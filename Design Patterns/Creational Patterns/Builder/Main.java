@@ -24,7 +24,7 @@ class Email {
     public String toString() {
         // TODO: Return formatted string showing all fields
         // Expected format: Email{to='...', subject='...', cc=[...], bcc=[...], body='...', priority='...', attachments=[...]}
-        return "Email{to='"+this.to+"', subject='"+this.subject+"', cc="+this.cc+", bcc="+this.bcc+", body='"+this.body+"', priority='"+this.priority+"', attachments="+this.attachments+"}";
+        return "Email{to='" + this.to + "', subject='" + this.subject + "', cc=" + this.cc + ", bcc=" + this.bcc + ", body='" + this.body + "', priority='" + this.priority + "', attachments=" + this.attachments + "}";
     }
 
     public static class Builder {

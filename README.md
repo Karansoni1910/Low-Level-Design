@@ -50,6 +50,7 @@ Patterns that deal with object creation mechanisms, trying to create objects in 
 | **[Singleton](./Design%20Patterns/Creational%20Patterns/Singleton/)** | 🔒 Ensures one instance exists globally | Single instance & global access |
 | **[Factory Method](./Design%20Patterns/Creational%20Patterns/Factory/)** | 🏭 Creates objects without specifying exact classes | Abstraction & loose coupling |
 | **[Builder](./Design%20Patterns/Creational%20Patterns/Builder/)** | 🏗️ Constructs complex objects step by step | Flexible object creation with optional parameters |
+| **[Prototype](./Design%20Patterns/Creational%20Patterns/Prototype/)** | 🎭 Creates objects by copying existing prototypes | Deep copying & independent object instances |
 
 ### 🎨 Design Principles
 
