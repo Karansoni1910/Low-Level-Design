@@ -52,6 +52,13 @@ Patterns that deal with object creation mechanisms, trying to create objects in 
 | **[Builder](./Design%20Patterns/Creational%20Patterns/Builder/)** | 🏗️ Constructs complex objects step by step | Flexible object creation with optional parameters |
 | **[Prototype](./Design%20Patterns/Creational%20Patterns/Prototype/)** | 🎭 Creates objects by copying existing prototypes | Deep copying & independent object instances |
 
+#### Structural Patterns
+Patterns that deal with object composition, creating relationships between entities to form larger structures while keeping these structures flexible and efficient.
+
+| Pattern | Description | Focus |
+|---------|-------------|-------|
+| **[Adapter](./Design%20Patterns/Structural%20Patterns/Adaptor/)** | 🔌 Converts incompatible interfaces for compatibility | Interface translation & legacy system integration |
+
 ### 🎨 Design Principles
 
 Best practices and principles that guide professional software design.
