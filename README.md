@@ -58,6 +58,7 @@ Patterns that deal with object composition, creating relationships between entit
 | Pattern | Description | Focus |
 |---------|-------------|-------|
 | **[Adapter](./Design%20Patterns/Structural%20Patterns/Adaptor/)** | 🔌 Converts incompatible interfaces for compatibility | Interface translation & legacy system integration |
+| **[Facade](./Design%20Patterns/Structural%20Patterns/Facade/)** | 🎭 Provides unified interface to complex subsystems | Simplification & subsystem coordination |
 
 ### 🎨 Design Principles
 
