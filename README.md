@@ -60,8 +60,9 @@ Patterns that deal with object composition, creating relationships between entit
 | **[Adapter](./Design%20Patterns/Structural%20Patterns/Adaptor/)** | 🔌 Converts incompatible interfaces for compatibility | Interface translation & legacy system integration |
 | **[Bridge](./Design%20Patterns/Structural%20Patterns/Bridge/)** | 🌉 Decouples abstraction from implementation independently | Abstraction-implementation separation & scalability |
 | **[Composite](./Design%20Patterns/Structural%20Patterns/Composite/)** | 🌳 Composes objects into tree structures for part-whole hierarchies | Tree structures & uniform treatment |
-| **[Facade](./Design%20Patterns/Structural%20Patterns/Facade/)** | 🎭 Provides unified interface to complex subsystems | Simplification & subsystem coordination |
 | **[Decorator](./Design%20Patterns/Structural%20Patterns/Decorator/)** | 🎨 Adds new functionality to objects dynamically | Feature composition & behavior enhancement |
+| **[Facade](./Design%20Patterns/Structural%20Patterns/Facade/)** | 🎭 Provides unified interface to complex subsystems | Simplification & subsystem coordination |
+| **[Flyweight](./Design%20Patterns/Structural%20Patterns/Flyweight/)** | 🪶 Shares common data to optimize memory usage efficiently | Memory optimization & object pooling |
 | **[Proxy](./Design%20Patterns/Structural%20Patterns/Proxy/)** | 🛡️ Controls access to another object through a surrogate | Access control, rate limiting & lazy initialization |
 
 ### 🎨 Design Principles
