@@ -1,0 +1,25 @@
+{
+  "name": "low-level-design-typescript",
+  "version": "1.0.0",
+  "description": "Complete TypeScript implementations of Low-Level Design concepts including OOP fundamentals, Design Principles, Design Patterns, Class Relationships, and SOLID Principles",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "build:clean": "npm run clean && npm run build",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [
+    "design-patterns",
+    "oop",
+    "solid-principles",
+    "design-principles",
+    "typescript",
+    "low-level-design"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
