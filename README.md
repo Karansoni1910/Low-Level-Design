@@ -65,6 +65,14 @@ Patterns that deal with object composition, creating relationships between entit
 | **[Flyweight](./Design%20Patterns/Structural%20Patterns/Flyweight/)** | 🪶 Shares common data to optimize memory usage efficiently | Memory optimization & object pooling |
 | **[Proxy](./Design%20Patterns/Structural%20Patterns/Proxy/)** | 🛡️ Controls access to another object through a surrogate | Access control, rate limiting & lazy initialization |
 
+#### Behavioral Patterns
+Patterns that focus on communication between objects, defining how objects interact and distribute responsibility to achieve flexible and maintainable designs.
+
+| Pattern | Description | Focus |
+|---------|-------------|-------|
+| **[Strategy](./Design%20Patterns/Behavioral%20Patterns/Strategy/)** | 🎯 Encapsulates interchangeable algorithms into separate classes | Runtime algorithm selection & flexibility |
+| **[Iterator](./Design%20Patterns/Behavioral%20Patterns/Iterator/)** | 🔁 Provides sequential access to collection elements without exposing structure | Multiple traversals & decoupled iteration |
+
 ### 🎨 Design Principles
 
 Best practices and principles that guide professional software design.
