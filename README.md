@@ -70,6 +70,7 @@ Patterns that focus on communication between objects, defining how objects inter
 
 | Pattern | Description | Focus |
 |---------|-------------|-------|
+| **[Command](./Design%20Patterns/Behavioral%20Patterns/Command/)** | 📋 Encapsulates a request as an object with execute and undo support | Request queuing, logging & undo/redo operations |
 | **[Strategy](./Design%20Patterns/Behavioral%20Patterns/Strategy/)** | 🎯 Encapsulates interchangeable algorithms into separate classes | Runtime algorithm selection & flexibility |
 | **[Iterator](./Design%20Patterns/Behavioral%20Patterns/Iterator/)** | 🔁 Provides sequential access to collection elements without exposing structure | Multiple traversals & decoupled iteration |
 | **[Observer](./Design%20Patterns/Behavioral%20Patterns/Observer/)** | 📡 Defines one-to-many dependency so state changes notify all dependents | Event handling & loose coupling |
